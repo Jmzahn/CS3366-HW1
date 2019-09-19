@@ -46,6 +46,8 @@ __Suggest the improvements to make on the control interface. Sketch your solutio
 
 ![image of sketch](https://github.com/Jmzahn/CS3366-HW1/blob/master/ElevatorControlDesign/assets/imgs/elevatorSketch.PNG)
 
+![gif of design](https://github.com/Jmzahn/CS3366-HW1/blob/master/ElevatorControlDesign/assets/imgs/animationelevator.gif)
+
 ## A Requirements
 
 __Come with your design for the touch screen? What is the screen size that you want?__
