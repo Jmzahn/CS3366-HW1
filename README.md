@@ -9,8 +9,7 @@ __Find an elevator in the apartment/campus/hotel. Only one example for each stud
 
 __Take photos of the control interface.__
 
-![image of control interface]
-(https://github.com/Jmzahn/CS3366-HW1/blob/master/ElevatorControlDesign/assets/imgs/MVIMG_20190913_160418.jpg)
+![image of control interface](https://github.com/Jmzahn/CS3366-HW1/blob/master/ElevatorControlDesign/assets/imgs/MVIMG_20190913_160418.jpg)
 
 __Show a gif image of the control interface in operation.__
 
@@ -45,8 +44,7 @@ __What are some common mistakes you can make with this current design?__
 
 __Suggest the improvements to make on the control interface. Sketch your solution. And justify your design decisions. Here is an example of Low-Fidelity Prototype sketching out the design (for a different purpose).__
 
-![image of sketch]
-(https://github.com/Jmzahn/CS3366-HW1/blob/master/ElevatorControlDesign/assets/imgs/elevatorSketch.PNG)
+![image of sketch](https://github.com/Jmzahn/CS3366-HW1/blob/master/ElevatorControlDesign/assets/imgs/elevatorSketch.PNG)
 
 ## A Requirements
 
