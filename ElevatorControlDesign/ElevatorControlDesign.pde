@@ -93,17 +93,23 @@ void draw(){
     rect(60, 245, 30, 30);}
   else{fill(red);rect(60, 245, 30, 30);}
   if(toggleClrs.get(13).equals("g")){fill(cp5.isMouseOver(cp5.getController("Alarm")) ? red:color(128));
-    rect(60, 325, 30, 30);}
-  else{fill(red);rect(60, 325, 30, 30);}
+    rect(60, 325, 30, 30);
+    fill(gray);rect(110, 325, 30, 30);}
+  else{fill(red);rect(60, 325, 30, 30);
+       fill(red);rect(110, 325, 30, 30);}
   if(toggleClrs.get(14).equals("g")){fill(cp5.isMouseOver(cp5.getController("Call")) ? red:color(128));
-    rect(310, 325, 30, 30);}
-  else{fill(red);rect(310, 325, 30, 30);}
+    rect(310, 325, 30, 30);
+    fill(gray);rect(260, 325, 30, 30);}
+  else{fill(red);rect(310, 325, 30, 30);
+       fill(red);rect(260, 325, 30, 30);}
   
   //these will not be toggled
   fill(cp5.isMouseOver(cp5.getController("<|>")) ? red:color(128));
   rect(160, 245, 30, 30);
   fill(cp5.isMouseOver(cp5.getController(">|<")) ? red:color(128));
   rect(210, 245, 30, 30);
+  
+  
 }
 
 
@@ -117,65 +123,65 @@ void mousePressed() {
     println(mouseOver);
     println(mouseOver.get(0));
     for(Object key:mouseOver){
-      String label = key.toString().substring(0,1);
+      String label = key.toString().substring(0,2);
       switch(label){
-        case "1":
+        case "1 ":
           if(toggleClrs.get(0).equals("r")){
             toggleClrs.set(0,"g");
             break;
           }
           toggleClrs.set(0,"r");
           break;
-        case "2":
+        case "2 ":
           if(toggleClrs.get(1).equals("r")){
             toggleClrs.set(1,"g");
             break;
           }
           toggleClrs.set(1,"r");
           break;
-        case "3":
+        case "3 ":
           if(toggleClrs.get(2).equals("r")){
             toggleClrs.set(2,"g");
             break;
           }
           toggleClrs.set(2,"r");
           break;
-        case "4":
+        case "4 ":
           if(toggleClrs.get(3).equals("r")){
             toggleClrs.set(3,"g");
             break;
           }
           toggleClrs.set(3,"r");
           break;
-        case "5":
+        case "5 ":
           if(toggleClrs.get(4).equals("r")){
             toggleClrs.set(4,"g");
             break;
           }
           toggleClrs.set(4,"r");
           break;
-        case "6":
+        case "6 ":
           if(toggleClrs.get(5).equals("r")){
             toggleClrs.set(5,"g");
             break;
           }
           toggleClrs.set(5,"r");
           break;
-        case "7":
+        case "7 ":
           if(toggleClrs.get(6).equals("r")){
             toggleClrs.set(6,"g");
             break;
           }
           toggleClrs.set(6,"r");
           break;
-        case "8":
+        case "8 ":
           if(toggleClrs.get(7).equals("r")){
             toggleClrs.set(7,"g");
             break;
           }
           toggleClrs.set(7,"r");
           break;
-        case "9":
+        case "9 ":
           if(toggleClrs.get(8).equals("r")){
             toggleClrs.set(8,"g");
             break;
@@ -203,21 +209,21 @@ void mousePressed() {
           }
           toggleClrs.set(11,"r");
           break;
-        case "B":
+        case "B ":
           if(toggleClrs.get(12).equals("r")){
             toggleClrs.set(12,"g");
             break;
           }
           toggleClrs.set(12,"r");
           break;
-        case "Alarm":
+        case "Al":
           if(toggleClrs.get(13).equals("r")){
             toggleClrs.set(13,"g");
             break;
           }
           toggleClrs.set(13,"r");
           break;
-        case "Call":
+        case "Ca":
           if(toggleClrs.get(14).equals("r")){
             toggleClrs.set(14,"g");
             break;
